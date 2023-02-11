@@ -1,4 +1,6 @@
-body {
+body { 
+  background: black;
+  color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+input{
+  font-size: 17px;
+} 
+h2{
+  font-size: 30px;
+  font-weight: 900;
+  font-style: bold;
+
+} 
+button{
+  font-size: larger;
+  margin: 7px; 
+  width: 31px;
+  height: 31px;
 }
